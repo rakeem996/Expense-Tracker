@@ -4,14 +4,15 @@ import Balance from "./Balance";
 import IncomeExpense from "./IncomeExpense";
 import TransactionList from "./TransactionList";
 import AddTransaction from "./AddTransaction";
+import "../style.css";
 
 function App() {
   return (
-    <div>
-      <Header />
+    <div className="full-form">
+        <Header />
       <div className="container">
         <Balance />
-        <IncomeExpense/>
+        <IncomeExpense />
         <TransactionList />
         <AddTransaction />
       </div>

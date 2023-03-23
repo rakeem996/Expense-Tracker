@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: block;
+    background-color: rgb(181, 182, 184);
+    display: flex;
+    justify-content: center;
+}
+
+.full-form{
+    margin-top: 50px;
+}
+
+.heading{
+    margin-bottom: 10px;
+}
+
+.balance{
+    margin-bottom: 10px;
+}
+
+.inc-exp-container{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.money-plus{
+    color: green;
+}
+
+.money-minus{
+    color: red;
+}
+
+.line{
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.157);
+}
+
+.list{
+    padding:10px 0 10px 0 ;
+    border-top: 2px solid rgba(0, 0, 0, 0.157);
+}
+.minus{
+    list-style-type: none;
+    background-color: rgb(255, 255, 255);
+    border-right: 5px solid rgb(161, 53, 53);
+}
+
+.minus span{
+    float: right;
+}
+
+.delete-btn{
+    visibility: hidden;
+}
